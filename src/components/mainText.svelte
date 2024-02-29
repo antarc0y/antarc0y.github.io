@@ -38,7 +38,8 @@
 	.title {
 		font-size: 3ch;
 		margin-top: 1vw;
-		font-family: 'Courier New', Courier, monospace;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+			Geneva, Verdana, sans-serif;
 	}
 	#third {
 		display: inline-block;

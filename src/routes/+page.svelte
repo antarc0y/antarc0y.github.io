@@ -19,12 +19,10 @@
 			<Skills />
 		</div>
 
-		<!-- Add other sections here if needed -->
+		<div id="contact">
+			<Contact />
+		</div>
 	</div>
-</div>
-
-<div id="contact">
-	<Contact />
 </div>
 
 <style>
@@ -39,14 +37,14 @@
 	}
 
 	#home {
-		flex-basis: 30%; /* Adjust this value as needed */
-		background-color: #878e99; /* Your grey color */
+		flex-basis: 30%;
+		background-color: #878e99;
 	}
 
 	#content-right {
-		flex-basis: 70%; /* Adjust this value as needed */
-		background-color: #7f6a93; /* Your purple color */
-		padding-left: 2%; /* Adjust as needed for spacing from the main text */
+		flex-basis: 65%;
+		background-color: #7f6a93;
+		padding-left: 2%;
 	}
 
 	#about,
