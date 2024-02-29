@@ -5,54 +5,93 @@
 </script>
 
 <main>
-	<div class="icon-container">
-		<div class="icon-circle">
-			<span class="large-icon">
-				<SchoolIcon />
-			</span>
+	<div class="content">
+		<div class="icon-container">
+			<div class="icon-circle">
+				<span class="icon"><SchoolIcon /></span>
+			</div>
+			<div class="text-container">
+				<h2>Education</h2>
+				<h3 class="subtitle">University of Alberta</h3>
+				<p>Bachelor of Science with Specialization in Computing Science</p>
+				<p>
+					Bachelor of Science with Specialization in Ecology, Evolution, and Environmental Biology
+				</p>
+			</div>
 		</div>
-		<div class="icon-circle">
-			<span class="large-icon">
-				<LocationIcon />
-			</span>
+		<div class="icon-container">
+			<div class="icon-circle">
+				<span class="icon"><LocationIcon /></span>
+			</div>
+			<div class="text-container">
+				<h2>Location</h2>
+				<p>Currently based in Edmonton, Canada</p>
+			</div>
 		</div>
-		<div class="icon-circle">
-			<span class="large-icon">
-				<CatIcon />
-			</span>
+		<div class="icon-container">
+			<div class="icon-circle">
+				<span class="icon"><CatIcon /></span>
+			</div>
+			<div class="text-container">
+				<h2>Interests</h2>
+				<p>I love cats</p>
+			</div>
 		</div>
 	</div>
 </main>
 
 <style>
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.icon-container {
 		display: flex;
-		justify-content: space-evenly;
 		align-items: center;
-		height: 50vh;
+		margin-bottom: 2rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid #878e99;
 	}
 
 	.icon-circle {
-		width: 160px;
-		height: 160px;
+		width: 100px;
+		height: 100px;
 		background-color: #d3d5d4;
 		border-radius: 50%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-		position: relative; /* Needed for absolute positioning of the icon */
+		margin-right: 1rem;
 	}
 
-	.large-icon {
-		text-align: center;
-		justify-content: center;
-		transform: scale(6);
-		/* position: absolute; */
+	.icon {
+		font-size: 4rem;
+		color: #7f6a93;
 	}
 
-	.iconify {
-		font-size: 5em; /* Sets the iconify icons size */
-		color: #7f6a93; /* Sets the iconify icons color */
+	.text-container h2 {
+		margin: 0;
+		font-size: 1.5rem;
+		color: #333;
+		text-decoration: underline;
+		text-decoration-color: #7f6a93;
+		text-decoration-thickness: 4px;
+		padding-bottom: 0.5rem;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.text-container .subtitle {
+		font-size: 1rem;
+		color: #333;
+		margin: 0;
+		padding-bottom: 2px;
+	}
+
+	.text-container p {
+		margin: 0;
+		font-size: 14px;
+		color: #ffffff;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 </style>

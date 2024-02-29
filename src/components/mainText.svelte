@@ -26,7 +26,7 @@
 				}
 			}
 
-			setTimeout(type, typing ? 200 : 100); // Adjust typing and deleting speed here
+			setTimeout(type, typing ? 300 : 100);
 		};
 
 		type();
