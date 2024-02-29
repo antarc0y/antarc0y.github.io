@@ -1,3 +1,38 @@
+<script>
+	import { onMount } from 'svelte';
+
+	let currentText = '';
+	const texts = ['Web Developer', 'Software Developer', 'Game Developer'];
+	let textIndex = 0;
+	let charIndex = 0;
+	let typing = true;
+
+	onMount(() => {
+		const type = () => {
+			if (typing) {
+				if (charIndex < texts[textIndex].length) {
+					currentText += texts[textIndex].charAt(charIndex);
+					charIndex++;
+				} else {
+					typing = false;
+				}
+			} else {
+				if (charIndex > 0) {
+					currentText = currentText.slice(0, -1);
+					charIndex--;
+				} else {
+					typing = true;
+					textIndex = (textIndex + 1) % texts.length;
+				}
+			}
+
+			setTimeout(type, typing ? 200 : 100); // Adjust typing and deleting speed here
+		};
+
+		type();
+	});
+</script>
+
 <main>
 	<div class="main-content">
 		<h1 class="greeting-line">
@@ -5,7 +40,9 @@
 			<span class="dash">—————</span>
 		</h1>
 		<h1 class="intro">I'm <span class="name">yui</span></h1>
-		<div class="title"><span id="third" /></div>
+		<div class="title">
+			<span id="third">{currentText}</span>
+		</div>
 	</div>
 </main>
 
@@ -13,7 +50,7 @@
 	.main-content {
 		text-align: left;
 		width: 100%;
-		padding-left: 5%; /* Adjust the padding as needed */
+		padding-left: 10%;
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 	.greeting-line {
@@ -48,19 +85,10 @@
 		white-space: nowrap;
 		margin: 0 auto;
 		font-weight: bolder;
-		animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		animation: blink-caret 0.75s step-end infinite;
+		text-decoration: underline;
+		text-decoration-color: #7f6a93;
 	}
-
-	/* The typing effect */
-	@keyframes typing {
-		from {
-			width: 0;
-		}
-		to {
-			width: 100%;
-		}
-	}
-
 	/* The typewriter cursor effect */
 	@keyframes blink-caret {
 		from,
@@ -69,23 +97,6 @@
 		}
 		50% {
 			border-color: #7f6a93;
-		}
-	}
-
-	#third::after {
-		content: '';
-		animation: third 6s linear infinite;
-	}
-	@keyframes third {
-		0%,
-		100% {
-			content: 'Web Developer';
-		}
-		33% {
-			content: 'Software Developer';
-		}
-		67% {
-			content: 'Game Developer';
 		}
 	}
 </style>
