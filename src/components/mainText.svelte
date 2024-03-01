@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	let currentText = '';
-	const texts = ['Web Developer', 'Software Developer', 'Game Developer'];
+	const texts = ['web developer', 'software developer', 'game developer'];
 	let textIndex = 0;
 	let charIndex = 0;
 	let typing = true;
@@ -36,7 +36,7 @@
 <main>
 	<div class="main-content">
 		<h1 class="greeting-line">
-			<span class="greeting">Hello</span>
+			<span class="greeting">hello</span>
 			<span class="dash">—————</span>
 		</h1>
 		<h1 class="intro">I'm <span class="name">yui</span></h1>

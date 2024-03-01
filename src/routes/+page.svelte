@@ -29,6 +29,7 @@
 	.container {
 		display: flex;
 		justify-content: space-between;
+		padding-top: 40px;
 	}
 
 	.section {

@@ -1,9 +1,11 @@
 <script>
 	import Header from './Header.svelte';
+	import Nav from '../components/nav.svelte';
 	import Background from '../components/background.svelte';
 	import './styles.css';
 </script>
 
+<Nav />
 <div class="background">
 	<Background />
 </div>

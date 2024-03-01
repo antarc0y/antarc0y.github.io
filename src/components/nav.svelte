@@ -1,34 +1,24 @@
-<script lang="ts">
-	function uncheckCheckbox() {
-		var checkbox = document.getElementById('checkbox_toggle') as HTMLInputElement;
-		checkbox.checked = false;
-	}
-	function scrollToSection(sectionId: string) {
-		const section = document.getElementById(sectionId) as HTMLElement;
-		section.scrollIntoView({ behavior: 'smooth' });
-		uncheckCheckbox();
+<script>
+	// @ts-nocheck
+
+	function scrollToSection(sectionId) {
+		if (typeof sectionId === 'string') {
+			const section = document.getElementById(sectionId);
+			if (section) {
+				section.scrollIntoView({ behavior: 'smooth' });
+			}
+		}
 	}
 </script>
 
 <main>
 	<nav>
-		<input type="checkbox" id="checkbox_toggle" />
-		<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+		<div class="logo">yh.</div>
 		<div class="nav-links">
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>Home</a>
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="javascript:void(0)" on:click={() => scrollToSection('about')}>About</a>
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>Projects</a>
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>Contact</a>
-			<!-- svelte-ignore a11y-invalid-attribute -->
+			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>home</a>
 
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="https://www.linkedin.com/in/yuihan">LinkedIn</a>
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="https://github.com/antarc0y">Github</a>
+			<a href="javascript:void(0)" on:click={() => scrollToSection('skills')}>skills</a>
+			<a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>contact</a>
 		</div>
 	</nav>
 </main>
@@ -49,82 +39,38 @@
 		width: 100%;
 		position: fixed;
 		display: flex;
-		padding: 1rem 1rem;
-		-webkit-backdrop-filter: blur(5px);
-		backdrop-filter: blur(5px);
-		background: rgba(0, 0, 0, 0.3);
-		justify-content: flex-end;
+		padding: 1rem 3rem;
+		justify-content: space-between;
+		align-items: center;
+		backdrop-filter: blur(10px);
+		background: none; /* Removes any background */
+		color: white; /* Adjust color as needed */
 	}
+
+	.logo {
+		font-size: 2rem; /* Adjust size as needed */
+		font-weight: bold; /* Adjust weight as needed */
+		color: #a2c5ac;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 2rem; /* Adjust gap as needed */
+	}
+
 	.nav-links a {
-		margin: 0 1rem;
-		position: relative;
+		color: #333;
 		text-decoration: none;
+		transition: color 0.3s;
+		padding: 0.5rem 1rem;
+		font-weight: bold;
 	}
-	.nav-links a::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: -10px;
-		width: 0;
-	}
+
 	.nav-links a:hover {
-		color: #ffffff;
-	}
-	.nav-links a:hover::after {
-		width: 100%;
-		height: 5px;
-		background: blue;
-		transition: width 0.3s;
-		bottom: -4px;
+		color: #cccccc; /* Hover color */
+		text-decoration: underline;
+		text-decoration-color: #cccccc; /* Underline color */
 	}
 
-	/* Hamburger menu */
-	input[type='checkbox'] {
-		display: none;
-	}
-
-	.hamburger {
-		display: none;
-		font-size: 2rem;
-		user-select: none;
-	}
-
-	@media (max-width: 850px) {
-		nav {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: flex-end;
-			padding: 0rem 2rem;
-		}
-		.nav-links {
-			position: absolute;
-			top: 38px;
-			left: 0;
-			width: 100%;
-			height: 100vh;
-			background: rgba(0, 0, 0, 0.95);
-			display: flex;
-			flex-direction: column;
-			justify-content: top;
-			align-items: center;
-			transform: translateX(-100%);
-			z-index: 1;
-			-webkit-backdrop-filter: blur(5px);
-			backdrop-filter: blur(5px);
-			background: rgba(0, 0, 0, 0.9);
-		}
-		.nav-links a {
-			font-size: 1.5rem;
-			margin: 1rem;
-			transition: color 0.3s;
-		}
-		input[type='checkbox']:checked ~ .nav-links {
-			transform: translateX(0);
-		}
-		.hamburger {
-			display: flex;
-			cursor: pointer;
-		}
-	}
+	/* You may need to adjust media queries for responsiveness */
 </style>
