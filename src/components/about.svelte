@@ -44,6 +44,12 @@
 	.content {
 		display: flex;
 		flex-direction: column;
+		padding: 20px; /* Adjust the padding as needed */
+		border-radius: 8px; /* Optional: if you want rounded corners */
+		margin: 20px; /* Adjust the margin as needed */
+		max-width: 1200px; /* Adjust the width as needed */
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.icon-container {

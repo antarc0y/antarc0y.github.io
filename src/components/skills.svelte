@@ -4,10 +4,6 @@
 />
 
 <main>
-	<div class="container">
-		<h1 class="first"><i class="word">Here</i><br />are my</h1>
-		<h1 class="second">Skills</h1>
-	</div>
 	<div class="techStack">
 		<div class="languages">
 			<h3 class="lheading">Languages</h3>
