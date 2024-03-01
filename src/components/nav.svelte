@@ -43,34 +43,37 @@
 		justify-content: space-between;
 		align-items: center;
 		backdrop-filter: blur(10px);
-		background: none; /* Removes any background */
-		color: white; /* Adjust color as needed */
+		background: none;
+		color: white;
 	}
 
 	.logo {
-		font-size: 2rem; /* Adjust size as needed */
-		font-weight: bold; /* Adjust weight as needed */
+		font-size: 2rem;
+		font-weight: bold;
 		color: #a2c5ac;
-	}
-
-	.nav-links {
-		display: flex;
-		gap: 2rem; /* Adjust gap as needed */
 	}
 
 	.nav-links a {
 		color: #333;
 		text-decoration: none;
-		transition: color 0.3s;
 		padding: 0.5rem 1rem;
 		font-weight: bold;
+		position: relative;
+		overflow: hidden;
+		background: linear-gradient(to right, #a2c5ac 50%, #333 50%);
+		background-size: 200% 100%;
+		background-position: right bottom;
+		transition: background-position 0.5s ease-out, color 0.5s ease-out;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	.nav-links a:hover {
-		color: #cccccc; /* Hover color */
-		text-decoration: underline;
-		text-decoration-color: #cccccc; /* Underline color */
+		background-position: left bottom;
+		color: #a2c5ac;
 	}
 
-	/* You may need to adjust media queries for responsiveness */
+	.nav-links a:hover::after {
+		right: 0;
+	}
 </style>
