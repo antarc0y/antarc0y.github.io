@@ -6,7 +6,7 @@
 </script>
 
 <div class="container">
-	<div class="row">
+	<div class="row" id="home">
 		<div class="left">
 			<MainText />
 		</div>
@@ -14,7 +14,7 @@
 			<About />
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" id="skills">
 		<div class="left">
 			<SkillsHeader />
 		</div>
@@ -35,6 +35,7 @@
 	.row {
 		display: flex;
 		width: 100%;
+		margin-bottom: 1rem;
 	}
 
 	.left {
@@ -47,6 +48,9 @@
 
 	.right {
 		flex-basis: 60%;
-		padding-left: 0cap;
+		padding-left: 2%;
+	}
+	.row + .row {
+		padding-top: 0;
 	}
 </style>

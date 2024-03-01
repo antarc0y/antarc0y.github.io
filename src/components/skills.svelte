@@ -60,7 +60,6 @@
 		flex-direction: column;
 		align-items: center;
 		font-size: 10vh;
-		margin-top: 0%;
 		margin-bottom: 0%;
 		padding: 2%;
 	}
