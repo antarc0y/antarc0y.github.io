@@ -12,7 +12,7 @@
 				<div class="text-container">
 					<h2 class="about-me">about me.</h2>
 					<p class="subtitle">
-						I'm a developer with experience in mobile software, web applications, and games. I'm
+						I'm a new developer with experience in mobile software, web applications, and games. I'm
 						passionate about creating effective solutions that suit clients' needs.
 					</p>
 					<p class="subtitle">
@@ -38,6 +38,7 @@
 
 	.about-section {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 	}
 
@@ -53,7 +54,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-left: -20px;
+		margin-bottom: 20px;
 	}
 
 	.right {
@@ -89,5 +90,24 @@
 		font-size: 14px;
 		color: #ffffff;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	@media (min-width: 768px) {
+		.content {
+			flex-direction: row;
+		}
+
+		.about-section {
+			flex-direction: row;
+		}
+
+		.left {
+			margin-left: -20px;
+			margin-bottom: 0;
+		}
+
+		.right {
+			flex-basis: 70%;
+		}
 	}
 </style>
