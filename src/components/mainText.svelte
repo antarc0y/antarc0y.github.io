@@ -82,12 +82,13 @@
 		display: inline-block;
 		overflow: hidden;
 		border-right: 0.15em solid orange;
-		white-space: nowrap;
+		white-space: pre-line;
 		margin: 0 auto;
 		font-weight: bolder;
 		animation: blink-caret 0.75s step-end infinite;
 		text-decoration: underline;
 		text-decoration-color: #7f6a93;
+		font-size: large;
 	}
 	/* The typewriter cursor effect */
 	@keyframes blink-caret {
