@@ -43,6 +43,15 @@
 		<div class="title">
 			<span id="third">{currentText}</span>
 		</div>
+		<div class="button-container">
+			<a
+				href="https://drive.google.com/file/d/1uzgLLMx8jUhonkg08EfLedXyiHs_ySLz/view?usp=sharing"
+				target="_blank"
+				class="portfolio-link"
+			>
+				<button class="portfolio-button">view resume</button>
+			</a>
+		</div>
 	</div>
 </main>
 
@@ -90,6 +99,31 @@
 		text-decoration-color: #7f6a93;
 		font-size: large;
 	}
+	.button-container {
+		text-align: start;
+		margin-top: 2vw;
+	}
+
+	.portfolio-button {
+		background-color: #a2c5ac;
+		border: 2px solid #a2c5ac;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 12px;
+		transition-duration: 0.4s;
+	}
+
+	.portfolio-button:hover {
+		background-color: white;
+		color: #a2c5ac;
+	}
+
 	/* The typewriter cursor effect */
 	@keyframes blink-caret {
 		from,
