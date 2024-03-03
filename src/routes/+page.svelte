@@ -1,6 +1,6 @@
 <script>
 	import MainText from '../components/mainText.svelte';
-	import SkillsHeader from '../components/skillsHeader.svelte';
+	import ProjectHeader from '../components/projectHeader.svelte';
 	import About from '../components/about.svelte';
 	import Skills from '../components/skills.svelte';
 </script>
@@ -16,11 +16,9 @@
 	</div>
 	<div class="row" id="skills">
 		<div class="left">
-			<SkillsHeader />
+			<ProjectHeader />
 		</div>
-		<div class="right">
-			<Skills />
-		</div>
+		<div class="right" />
 	</div>
 </div>
 

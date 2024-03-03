@@ -1,8 +1,8 @@
 <main>
 	<div class="main-content">
 		<h1 class="greeting-line">
-			<span class="greeting">my skills</span>
-			<span>—————</span>
+			<span class="greeting">projects</span>
+			<span>——</span>
 		</h1>
 	</div>
 </main>
@@ -17,13 +17,13 @@
 	.greeting-line {
 		display: flex;
 		justify-content: left;
-		align-items: baseline; /* Align the text and dash properly */
+		align-items: baseline;
 		font-size: 4vw;
 		font-weight: bold;
 		margin: 0;
 		color: #333;
 	}
 	.greeting {
-		margin-right: 1vw; /* Adjust the space between "my skills" and the dashes */
+		margin-right: 1vw;
 	}
 </style>
