@@ -1,17 +1,11 @@
 <script>
 	import { onMount } from 'svelte';
-	import ResumeIcon from '../icons/resume.svelte';
 
 	let currentText = '';
 	const texts = ['web developer', 'software developer', 'game developer'];
 	let textIndex = 0;
 	let charIndex = 0;
 	let typing = true;
-	let showIcon = false;
-
-	const updateIconVisibility = () => {
-		showIcon = window.innerWidth <= 768;
-	};
 
 	onMount(() => {
 		const type = () => {
@@ -36,11 +30,6 @@
 		};
 
 		type();
-		updateIconVisibility();
-		window.addEventListener('resize', updateIconVisibility);
-		return () => {
-			window.removeEventListener('resize', updateIconVisibility);
-		};
 	});
 </script>
 
@@ -53,21 +42,6 @@
 		<h1 class="intro">I'm <span class="name">yui</span></h1>
 		<div class="title">
 			<span id="third">{currentText}</span>
-		</div>
-		<div class="button-container">
-			<a
-				href="https://drive.google.com/file/d/1enE-Z6jrNTi2t5eM7T39uuva71xa2366/view?usp=sharing"
-				target="_blank"
-				class="portfolio-link"
-			>
-				<button class="portfolio-button">
-					{#if showIcon}
-						<ResumeIcon />
-					{:else}
-						view resume
-					{/if}
-				</button>
-			</a>
 		</div>
 	</div>
 </main>
@@ -115,49 +89,6 @@
 		text-decoration: underline;
 		text-decoration-color: #7f6a93;
 		font-size: large;
-	}
-	.button-container {
-		text-align: start;
-		margin-top: 2vw;
-	}
-
-	.portfolio-button {
-		background-color: #a2c5ac;
-		border: 2px solid #a2c5ac;
-		color: white;
-		padding: 15px 32px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 16px;
-		margin: 4px 2px;
-		cursor: pointer;
-		border-radius: 12px;
-		transition-duration: 0.4s;
-	}
-
-	.portfolio-button:hover {
-		background-color: white;
-		color: #a2c5ac;
-	}
-
-	@media (max-width: 768px) {
-		.portfolio-button {
-			padding: 12px 24px;
-			font-size: 14px;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.portfolio-button {
-			padding: 10px 20px;
-			font-size: 0; /* Hide text */
-		}
-
-		.portfolio-button svg {
-			width: 24px;
-			height: 24px;
-		}
 	}
 
 	/* The typewriter cursor effect */
