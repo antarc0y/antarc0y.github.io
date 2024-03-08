@@ -187,11 +187,14 @@ section {
 
 .section__text__p1 {
 	text-align: center;
+	color: white;
+	font-size: larger;
 }
 
 .section__text__p2 {
 	font-size: 1.75rem;
 	margin-bottom: 1rem;
+	color: white;
 }
 
 .title {
@@ -301,6 +304,7 @@ section {
 	border: rgb(53, 53, 53) 0.1rem solid;
 	border-color: rgb(163, 163, 163);
 	text-align: center;
+	margin-bottom: 2.5rem;
 }
 
 .section-container {
@@ -331,6 +335,7 @@ section {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .article-container {
@@ -339,13 +344,15 @@ section {
 	flex-wrap: wrap;
 	flex-direction: row;
 	gap: 2.5rem;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: stretch;
 }
 
 article {
 	display: flex;
 	width: 10rem;
-	justify-content: space-around;
+	justify-content: start;
+	align-items: start;
 	gap: 0.5rem;
 }
 

@@ -61,34 +61,20 @@
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
 							<h3>CSS</h3>
-							<p>Intermediate</p>
-						</div>
-					</article>
-					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
-						<div>
-							<h3>JavaScript</h3>
-							<p>Intermediate</p>
+							<p>Experienced</p>
 						</div>
 					</article>
 
 					<article>
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
-							<h3>TypeScript</h3>
-							<p>Intermediate</p>
-						</div>
-					</article>
-					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
-						<div>
-							<h3>Material UI</h3>
+							<h3>React JS / Native</h3>
 							<p>Intermediate</p>
 						</div>
 					</article>
 				</div>
 			</div>
-			<!-- <div class="details-container">
+			<div class="details-container">
 				<h2 class="experience-sub-title">backend development</h2>
 				<div class="article-container">
 					<article>
@@ -108,19 +94,120 @@
 					<article>
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
-							<h3>Express JS</h3>
+							<h3>Django</h3>
 							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
-							<h3>Git</h3>
-							<p>Intermediate</p>
+							<h3>PHP</h3>
+							<p>Basic</p>
 						</div>
 					</article>
 				</div>
-			</div> -->
+			</div>
+			<div class="details-container">
+				<h2 class="experience-sub-title">languages</h2>
+				<div class="article-container">
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Java</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Python</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>JavaScript</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>TypeScript</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>C/C++</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>C#</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>DART</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Go</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="details-container">
+				<h2 class="experience-sub-title">development tools and environments</h2>
+				<div class="article-container">
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Git + Github</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>VS Code</h3>
+							<p>Experienced</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Visual Studio</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Andriod Studio</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Unity</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

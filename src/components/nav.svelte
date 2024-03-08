@@ -15,7 +15,7 @@
 	<nav>
 		<div class="logo">yh.</div>
 		<div class="nav-links">
-			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>home</a>
+			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>about</a>
 			<a href="javascript:void(0)" on:click={() => scrollToSection('skills')}>skills</a>
 			<a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>projects</a>
 			<a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>contact</a>
@@ -32,8 +32,6 @@
 		box-sizing: border-box;
 		color: white;
 		font-size: 1.4rem;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-			'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 	}
 	nav {
 		width: 100%;
