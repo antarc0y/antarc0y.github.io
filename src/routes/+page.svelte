@@ -1,8 +1,8 @@
 <script>
-	import About from '../components/about.svelte';
 	import Skills from '../components/skills.svelte';
 	import Projects from '../components/projects.svelte';
 	import Contact from '../components/contact.svelte';
+	import About from '../components/about.svelte';
 </script>
 
 <svelte:head>
@@ -12,6 +12,39 @@
 <div class="container">
 	<div class="section" id="home">
 		<About />
+	</div>
+
+	<div class="section" id="about">
+		<section id="about">
+			<p class="section__text__p1">get to know more</p>
+			<h1 class="title">about me</h1>
+			<div class="section-container">
+				<div class="section__pic-container">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img src="src/icons/about-pic.png" alt="Profile picture" class="about-pic" />
+				</div>
+				<div class="about-details-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img src="src/icons/experience.png" alt="Experience icon" class="icon" />
+							<h3>experience</h3>
+							<p>2+ years <br />Frontend Development</p>
+						</div>
+						<div class="details-container">
+							<img src="src/icons/education.png" alt="Education icon" class="icon" />
+							<h3>university of alberta</h3>
+							<p>B.Sc. Computing Science<br />B.Sc. Ecology and Environmental Biology</p>
+						</div>
+					</div>
+
+					<p class="section__text__p1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et
+						laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime
+						facere minus sint
+					</p>
+				</div>
+			</div>
+		</section>
 	</div>
 
 	<div class="section" id="skills">
@@ -50,11 +83,18 @@
 		width: 100%;
 		padding-top: 70px;
 	}
+	.section__text__p1 {
+		font-size: medium;
+	}
 
 	.logo {
 		font-size: 2rem;
 		font-weight: bold;
 		color: #a2c5ac;
+	}
+	.title {
+		text-decoration: underline;
+		text-decoration-color: #a2c5ac;
 	}
 
 	.section {
@@ -68,5 +108,17 @@
 
 	footer {
 		text-align: center;
+	}
+
+	@media screen and (max-width: 1400px) {
+		.details-container {
+			max-width: 100%;
+			margin-top: 2rem;
+		}
+	}
+	@media screen and (max-width: 1200px) {
+		.about-containers {
+			margin-top: 0;
+		}
 	}
 </style>
