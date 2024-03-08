@@ -2,74 +2,92 @@
 	import Me from '../icons/me.png';
 	import ResumeIcon from '../icons/resume.svelte';
 	import ContactIcon from '../icons/contact.svelte';
+
+	/**
+	 * @param {string | URL | undefined} url
+	 */
+	function openLink(url) {
+		window.open(url, '_blank');
+	}
 </script>
 
-<main>
-	<div class="content">
-		<div class="about-section">
-			<div class="profile-container">
-				<img src={Me} alt="Me" class="profile-image" />
-			</div>
-			<div class="text-container">
-				<h2 class="about-me">about me.</h2>
-				<p class="subtitle">
-					I'm a new developer with experience in mobile software, web applications, and games. I'm
-					passionate about creating effective solutions that suit clients' needs.
-				</p>
-				<p class="subtitle">
-					My collaborative approach and commitment to constant learning ensure that I'm always ready
-					to tackle the next challenge and contribute meaningfully to any project.
-				</p>
-			</div>
-		</div>
-		<div class="button-container">
+<section id="profile">
+	<div class="section__pic-container">
+		<img src={Me} alt="Me" class="profile-image" />
+	</div>
+	<div class="section__text">
+		<p class="section__text__p1">hello. I'm</p>
+		<h2 class="title">yui han</h2>
+		<p class="ssection__text__p2">frontend developer</p>
+		<div class="btn-container">
 			<a
 				href="https://drive.google.com/file/d/1enE-Z6jrNTi2t5eM7T39uuva71xa2366/view?usp=sharing"
 				target="_blank"
 				class="portfolio-link"
 			>
-				<button class="portfolio-button">
+				<button class="btn btn-color-2">
 					<ResumeIcon />
 					view resume
 				</button>
 			</a>
 
-			<button class="portfolio-button"> <ContactIcon /> contact me </button>
+			<button class="btn btn-color-1"> <ContactIcon /> contact me </button>
+		</div>
+
+		<div id="socials-container">
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<img
+				src="src/icons/github.png"
+				alt="My Github profile"
+				class="icon"
+				on:click={() => openLink('https://github.com/antarc0y')}
+			/>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<img
+				src="src/icons/linkedin.png"
+				alt="My LinkedIn profile"
+				class="icon"
+				on:click={() => openLink('https://www.linkedin.com/in/yuihan/')}
+			/>
 		</div>
 	</div>
-</main>
+</section>
 
 <style>
-	.content {
+	section {
+		padding-top: 4vh;
+		height: 96vh;
+		margin: 0 10rem;
+		box-sizing: border-box;
+		min-height: fit-content;
 		display: flex;
-		flex-direction: column;
-		padding-left: 10%;
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-	}
-
-	.about-section {
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-		gap: 20px;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.profile-container {
-		flex: 0 0 auto;
+		display: flex;
+		height: 400px;
+		width: 400px;
+		margin: auto 0;
 	}
 
 	.profile-image {
-		width: 150px;
+		width: 500px;
 		height: auto;
 		border-radius: 50%;
 	}
 
 	.text-container {
-		flex: 1;
-		padding: 0 20px;
+		align-self: center;
+		text-align: center;
+	}
+
+	.text-container p {
+		font-weight: 600;
+	}
+	.about-me {
+		text-align: center;
 	}
 
 	.text-container h2 {
@@ -85,23 +103,19 @@
 	}
 
 	.text-container .subtitle {
-		font-size: 1rem;
-		margin-bottom: 0.5rem;
-		padding-left: 10px;
-		max-width: 70%;
-		color: #d3d5d4;
-		font-weight: bold;
-		word-wrap: break-word;
-		text-align: left;
+		font-size: 1.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.title {
+		text-decoration: underline;
+		text-decoration-color: #a2c5ac;
 	}
 
 	.button-container {
 		display: flex;
-		justify-content: flex-start;
-		margin-top: 20px;
-		width: auto;
-		padding-left: 10px;
-		gap: 40px;
+		justify-content: center;
+		gap: 1rem;
 	}
 
 	.portfolio-button {
@@ -122,33 +136,5 @@
 	.portfolio-button:hover {
 		background-color: white;
 		color: #a2c5ac;
-	}
-
-	@media (max-width: 768px) {
-		.about-section {
-			flex-direction: column;
-			align-items: left;
-		}
-
-		.profile-container {
-			margin-bottom: 20px;
-			justify-content: flex-start;
-		}
-
-		.text-container,
-		.text-container h2,
-		.text-container .subtitle {
-			text-align: left;
-			padding-left: 0;
-		}
-
-		.button-container {
-			width: 100%;
-			padding-left: 0;
-			justify-content: flex-start;
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 10px;
-		}
 	}
 </style>

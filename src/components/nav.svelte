@@ -17,7 +17,7 @@
 		<div class="nav-links">
 			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>home</a>
 
-			<a href="javascript:void(0)" on:click={() => scrollToSection('skills')}>skills</a>
+			<a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>projects</a>
 			<a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>contact</a>
 		</div>
 	</nav>
