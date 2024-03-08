@@ -28,7 +28,11 @@
 						<div class="details-container">
 							<img src="src/icons/experience.png" alt="Experience icon" class="icon" />
 							<h3>experience</h3>
-							<p>2+ years <br />Frontend Development</p>
+							<p>
+								mobile development <br />frontend development
+								<br />
+								hackathon enthusiast
+							</p>
 						</div>
 						<div class="details-container">
 							<img src="src/icons/education.png" alt="Education icon" class="icon" />
@@ -38,9 +42,11 @@
 					</div>
 
 					<p class="section__text__p1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et
-						laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime
-						facere minus sint
+						I'm a new developer that has dabbled in a variety of projects including web
+						applications, mobile software, and games. I'm passionate about creating effective
+						solutions that suits the clients' needs. My collaborative approach and commitment to
+						constant learning ensures that I'm always ready to tackle the next challenge and
+						contribute meaningfully to a team.
 					</p>
 				</div>
 			</div>
