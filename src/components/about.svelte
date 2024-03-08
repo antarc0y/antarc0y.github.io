@@ -1,7 +1,5 @@
 <script>
 	import Me from '../icons/me.png';
-	import ResumeIcon from '../icons/resume.svelte';
-	import ContactIcon from '../icons/contact.svelte';
 
 	/**
 	 * @param {string | URL | undefined} url
@@ -25,13 +23,10 @@
 				target="_blank"
 				class="portfolio-link"
 			>
-				<button class="btn btn-color-2">
-					<ResumeIcon />
-					view resume
-				</button>
+				<button class="btn btn-color-2"> view resume </button>
 			</a>
 
-			<button class="btn btn-color-1"> <ContactIcon /> contact me </button>
+			<button class="btn btn-color-1"> contact </button>
 		</div>
 
 		<div id="socials-container">

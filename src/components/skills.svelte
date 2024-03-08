@@ -2,46 +2,128 @@
 	rel="stylesheet"
 	href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 />
+<section id="experience">
+	<p class="section__text__p1">View My</p>
+	<h1 class="title">skills</h1>
+	<div class="experience-details-container">
+		<div class="about-containers">
+			<div class="details-container">
+				<h2 class="experience-sub-title">database management</h2>
+				<div class="article-container">
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Firebase</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>MongoDB</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>GraphQL</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>SQL</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="details-container">
+				<h2 class="experience-sub-title">frontend development</h2>
+				<div class="article-container">
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>SASS</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>HTML</h3>
+							<p>Experienced</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>CSS</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>JavaScript</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
 
-<main>
-	<div class="techStack">
-		<div class="languages">
-			<h3 class="lheading">Languages</h3>
-			<i class="devicon-python-plain-wordmark" />
-			<i class="devicon-javascript-plain" />
-			<i class="devicon-java-plain-wordmark" />
-			<i class="devicon-c-plain-wordmark" />
-			<i class="devicon-go-original-wordmark" />
-		</div>
-		<div class="frontend">
-			<h3 class="fheading">Frontend</h3>
-			<i class="devicon-react-original-wordmark" />
-			<i class="devicon-svelte-plain-wordmark" />
-			<i class="devicon-html5-plain-wordmark" />
-			<i class="devicon-css3-plain-wordmark" />
-		</div>
-		<div class="backend">
-			<h3 class="bheading">Backend</h3>
-			<i class="devicon-django-plain-wordmark" />
-			<i class="devicon-flask-original-wordmark" />
-			<i class="devicon-firebase-plain-wordmark" />
-			<i class="devicon-mongodb-plain-wordmark" />
-			<i class="devicon-nginx-original-wordmark" />
-		</div>
-		<div class="mobile">
-			<h3 class="mheading">Mobile</h3>
-			<i class="devicon-androidstudio-plain-wordmark" />
-			<i class="devicon-flutter-plain" />
-		</div>
-		<div class="tools">
-			<h3 class="theading">Tools & Others</h3>
-			<i class="devicon-tensorflow-original" />
-			<i class="devicon-git-plain-wordmark" />
-			<i class="devicon-github-original-wordmark" />
-			<i class="devicon-docker-plain-wordmark" />
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>TypeScript</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Material UI</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<!-- <div class="details-container">
+				<h2 class="experience-sub-title">backend development</h2>
+				<div class="article-container">
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>PostgreSQL</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Node JS</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Express JS</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<div>
+							<h3>Git</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+				</div>
+			</div> -->
 		</div>
 	</div>
-</main>
+</section>
 
 <style>
 	.techStack {
@@ -65,6 +147,11 @@
 	}
 	.lheading {
 		font-size: 5vh;
+	}
+
+	.title {
+		text-decoration: underline;
+		text-decoration-color: #a2c5ac;
 	}
 
 	.frontend {
