@@ -11,7 +11,6 @@
 
 <div class="container">
 	<div class="section" id="home">
-		<!-- <MainText /> -->
 		<About />
 	</div>
 
@@ -19,7 +18,6 @@
 		<Skills />
 	</div>
 	<div class="section" id="projects">
-		<!-- <ProjectHeader /> -->
 		<Projects />
 	</div>
 
