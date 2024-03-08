@@ -33,7 +33,9 @@
 	<div class="section__text">
 		<p class="section__text__p1">hello. I'm</p>
 		<h2 class="title">yui han</h2>
-		<p class="section__text__p2">{label}</p>
+		<div class="label-container">
+			<p class="section__text__p2">{label}</p>
+		</div>
 		<div class="btn-container">
 			<a
 				href="https://drive.google.com/file/d/1enE-Z6jrNTi2t5eM7T39uuva71xa2366/view?usp=sharing"
@@ -69,6 +71,9 @@
 	.title {
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
+	}
+	.label-container {
+		min-width: 276px;
 	}
 	@keyframes label {
 		0% {

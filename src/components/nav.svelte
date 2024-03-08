@@ -9,19 +9,24 @@
 			}
 		}
 	}
+
+	function toggleMenu() {
+		const menu = document.querySelector('.menu-links');
+		const icon = document.querySelector('.hamburger-icon');
+		menu.classList.toggle('open');
+		icon.classList.toggle('open');
+	}
 </script>
 
-<main>
-	<nav>
-		<div class="logo">yh.</div>
-		<div class="nav-links">
-			<a href="javascript:void(0)" on:click={() => scrollToSection('home')}>about</a>
-			<a href="javascript:void(0)" on:click={() => scrollToSection('skills')}>skills</a>
-			<a href="javascript:void(0)" on:click={() => scrollToSection('projects')}>projects</a>
-			<a href="javascript:void(0)" on:click={() => scrollToSection('contact')}>contact</a>
-		</div>
-	</nav>
-</main>
+<nav id="desktop-nav">
+	<div class="logo">yh.</div>
+	<ul class="nav-links">
+		<a href="#about" on:click={() => scrollToSection('home')}>about</a>
+		<a href="#skills" on:click={() => scrollToSection('skills')}>skills</a>
+		<a href="#projects" on:click={() => scrollToSection('projects')}>projects</a>
+		<a href="#contact" on:click={() => scrollToSection('contact')}>contact</a>
+	</ul>
+</nav>
 
 <style>
 	* {
