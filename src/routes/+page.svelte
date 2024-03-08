@@ -21,7 +21,7 @@
 			<div class="section-container">
 				<div class="section__pic-container">
 					<!-- svelte-ignore a11y-img-redundant-alt -->
-					<img src="src/icons/about-pic.png" alt="Profile picture" class="about-pic" />
+					<img src="src/icons/about-pic.JPG" alt="Profile picture" class="about-pic" />
 				</div>
 				<div class="about-details-container">
 					<div class="about-containers">
