@@ -17,6 +17,11 @@
 					<img src="src/icons/toneteller.png" alt="ToneTeller" class="project-img" />
 				</div>
 				<h2 class="experience-sub-title project-title">Tone Teller</h2>
+				<p class="section__text__p3">
+					A web application and chrome extension that uses a machine learning model to perform
+					sentiment analysis on input text. This project won <strong>2nd place</strong> in
+					<strong>HackED 2023.</strong>
+				</p>
 				<div class="btn-container">
 					<button
 						class="btn btn-color-2 project-btn"
@@ -35,6 +40,15 @@
 					<img src="src/icons/aquatic.png" alt="AR-Biosphere" class="project-img" />
 				</div>
 				<h2 class="experience-sub-title project-title">AR-Biosphere</h2>
+				<p class="section__text__p3">
+					This mobile app is the first MVP of an augmented reality project for the <strong
+						>Aquatic Biosphere Society.</strong
+					>
+					This prototype lays the foundation for the next phases of this exciting project. AR-Biosphere
+					was also part of the
+					<strong>University of Alberta Community Service Learning</strong> program.
+				</p>
+
 				<div class="btn-container">
 					<button
 						class="btn btn-color-2 project-btn"
@@ -54,36 +68,24 @@
 </section>
 
 <style>
-	.projects-container {
-		display: flex;
-		flex-direction: column;
-		padding-left: 10%;
-		padding-top: 3%;
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-	}
-
 	.section__text__p1 {
 		text-align: center;
+		color: white;
+		font-size: medium;
+		padding: 1rem;
+	}
+
+	.section__text__p3 {
+		text-align: center;
+		color: grey;
+		font-size: medium;
+		padding: 1rem;
 	}
 
 	.title {
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
 	}
-	.project-card {
-		display: flex;
-		flex-direction: row; /* Arrange items in a row */
-		align-items: flex-start;
-		text-decoration: none;
-		color: inherit;
-		margin-bottom: 2rem;
-		position: relative;
-		overflow: hidden;
-	}
-
 	.project-info {
 		position: relative;
 		z-index: 1; /* Ensures text content is on top of the overlay */

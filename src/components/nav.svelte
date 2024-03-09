@@ -23,10 +23,10 @@
 <nav id="desktop-nav">
 	<div class="logo">yh.</div>
 	<ul class="nav-links">
-		<a href="#about" on:click={() => scrollToSection('home')}>about</a>
-		<a href="#skills" on:click={() => scrollToSection('skills')}>skills</a>
-		<a href="#projects" on:click={() => scrollToSection('projects')}>projects</a>
-		<a href="#contact" on:click={() => scrollToSection('contact')}>contact</a>
+		<a href="#about">about</a>
+		<a href="#skills">skills</a>
+		<a href="#projects">projects</a>
+		<a href="#contact">contact</a>
 	</ul>
 </nav>
 
