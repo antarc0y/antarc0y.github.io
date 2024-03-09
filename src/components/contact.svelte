@@ -1,5 +1,5 @@
 <section id="contact">
-	<p class="section__text__p1">Get in Touch</p>
+	<p class="section__text__p1">get in touch</p>
 	<h1 class="title">contact me</h1>
 	<div class="contact-info-upper-container">
 		<div class="contact-info-container">

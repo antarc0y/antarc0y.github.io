@@ -8,7 +8,7 @@
 </script>
 
 <section id="projects">
-	<p class="section__text__p1">Browse My Recent</p>
+	<p class="section__text__p1">browse my</p>
 	<h1 class="title">projects</h1>
 	<div class="experience-details-container">
 		<div class="about-containers">

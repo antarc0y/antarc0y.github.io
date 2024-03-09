@@ -3,7 +3,7 @@
 	href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 />
 <section id="experience">
-	<p class="section__text__p1">View My</p>
+	<p class="section__text__p1">view my</p>
 	<h1 class="title">skills</h1>
 	<div class="experience-details-container">
 		<div class="about-containers">
