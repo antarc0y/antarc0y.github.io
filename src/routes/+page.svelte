@@ -27,11 +27,9 @@
 					<div class="about-containers">
 						<div class="details-container">
 							<img src="src/icons/experience.png" alt="Experience icon" class="icon" />
-							<h3>experience</h3>
+							<h3>location</h3>
 							<p>
-								mobile development <br />frontend development
-								<br />
-								hackathon enthusiast
+								based in <br /> <strong>Edmonton AB, Canada</strong>
 							</p>
 						</div>
 						<div class="details-container">
