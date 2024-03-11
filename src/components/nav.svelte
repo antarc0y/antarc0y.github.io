@@ -23,10 +23,9 @@
 <nav id="desktop-nav">
 	<div class="logo">yh.</div>
 	<ul class="nav-links">
-		<a href="#about">about</a>
-		<a href="#skills">skills</a>
-		<a href="#projects">projects</a>
-		<a href="#contact">contact</a>
+		<a href="/">home</a>
+		<a href="/about">about</a>
+		<a href="/projects">projects</a>
 	</ul>
 </nav>
 
@@ -40,10 +39,9 @@
 			<span />
 		</div>
 		<ul class="menu-links">
-			<a href="#about" on:click={toggleMenu}>about</a>
-			<a href="#skills" on:click={toggleMenu}>skills</a>
-			<a href="#projects" on:click={toggleMenu}>projects</a>
-			<a href="#contact" on:click={toggleMenu}>contact</a>
+			<a href="/" on:click={toggleMenu}>home</a>
+			<a href="/about" on:click={toggleMenu}>about</a>
+			<a href="/projects" on:click={toggleMenu}>projects</a>
 		</ul>
 	</div>
 </nav>

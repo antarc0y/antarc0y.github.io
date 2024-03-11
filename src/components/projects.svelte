@@ -68,13 +68,6 @@
 </section>
 
 <style>
-	.section__text__p1 {
-		text-align: center;
-		color: white;
-		font-size: medium;
-		padding: 1rem;
-	}
-
 	.section__text__p3 {
 		text-align: center;
 		color: grey;

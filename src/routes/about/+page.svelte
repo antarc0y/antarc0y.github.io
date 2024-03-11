@@ -1,10 +1,17 @@
 <script>
 	import Profile from '../../components/profile.svelte';
+	import Contact from '../../components/contact.svelte';
+	// @ts-ignore
+	import Footer from '../../components/footer.svelte';
 </script>
 
 <div class="container">
 	<div class="section" id="about">
 		<Profile />
+	</div>
+	<div class="section">
+		<Contact />
+		<Footer />
 	</div>
 </div>
 
@@ -18,6 +25,6 @@
 
 	.section {
 		width: 100%;
-		margin-bottom: 4rem;
+		margin-bottom: 7rem;
 	}
 </style>

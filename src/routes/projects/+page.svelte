@@ -1,10 +1,18 @@
 <script>
 	import Projects from '../../components/projects.svelte';
+	import Contact from '../../components/contact.svelte';
+	// @ts-ignore
+	import Footer from '../../components/footer.svelte';
 </script>
 
 <div class="container">
 	<div class="section" id="projects">
 		<Projects />
+	</div>
+
+	<div class="section">
+		<Contact />
+		<Footer />
 	</div>
 </div>
 
