@@ -11,31 +11,40 @@
 				<h2 class="experience-sub-title">database management</h2>
 				<div class="article-container">
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Firebase</h3>
 							<p>Basic</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>MongoDB</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>GraphQL</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
 							<h3>SQL</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 				</div>
@@ -44,32 +53,54 @@
 				<h2 class="experience-sub-title">frontend development</h2>
 				<div class="article-container">
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>SASS</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>HTML</h3>
-							<p>Experienced</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>CSS</h3>
-							<p>Experienced</p>
 						</div>
 					</article>
 
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>React JS / Native</h3>
-							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img
+							src="https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
+						<div>
+							<h3>Svelte</h3>
 						</div>
 					</article>
 				</div>
@@ -78,31 +109,43 @@
 				<h2 class="experience-sub-title">backend development</h2>
 				<div class="article-container">
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>PostgreSQL</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Node JS</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://www.svgrepo.com/show/353657/django-icon.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Django</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>PHP</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 				</div>
@@ -111,59 +154,113 @@
 				<h2 class="experience-sub-title">languages</h2>
 				<div class="article-container">
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Java</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Python</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>JavaScript</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>TypeScript</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
-							<h3>C/C++</h3>
-							<p>Intermediate</p>
+							<h3>C</h3>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192106073-90fffafe-3562-4ff9-a37e-c77a2da0ff58.png"
+							alt="Experience icon"
+							class="icon"
+						/>
+						<div>
+							<h3>C++</h3>
+						</div>
+					</article>
+					<article>
+						<img
+							src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>C#</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/186150365-da1eccce-6201-487c-8649-45e9e99435fd.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>DART</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/186150304-1568ffdf-4c62-4bdc-9cf1-8d8efcea7c5b.png"
+							alt="Experience icon"
+							class="icon"
+						/>
+						<div>
+							<h3>Flutter</h3>
+						</div>
+					</article>
+					<article>
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192149581-88194d20-1a37-4be8-8801-5dc0017ffbbe.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Go</h3>
-							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img
+							src="https://user-images.githubusercontent.com/25181517/187955005-f4ca6f1a-e727-497b-b81b-93fb9726268e.png"
+							alt="Experience icon"
+							class="icon"
+						/>
+						<div>
+							<h3>Jest</h3>
 						</div>
 					</article>
 				</div>
@@ -172,38 +269,59 @@
 				<h2 class="experience-sub-title">development tools and environments</h2>
 				<div class="article-container">
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
-							<h3>Git + Github</h3>
-							<p>Intermediate</p>
+							<h3>Git</h3>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
-							<h3>VS Code</h3>
-							<p>Experienced</p>
+							<h3>VSCode</h3>
+						</div>
+					</article>
+					<article>
+						<img
+							src="https://user-images.githubusercontent.com/25181517/183912952-83784e94-629d-4c34-a961-ae2ae795b662.png"
+							alt="Experience icon"
+							class="icon"
+						/>
+						<div>
+							<h3>Jira</h3>
 						</div>
 					</article>
 					<article>
 						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
 						<div>
 							<h3>Visual Studio</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/9/95/Android_Studio_Icon_3.6.svg"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Andriod Studio</h3>
-							<p>Intermediate</p>
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/checkmark.png" alt="Experience icon" class="icon" />
+						<img
+							src="https://user-images.githubusercontent.com/25181517/193427941-9437dbbe-376f-40dc-9573-0ef5c02a26a7.png"
+							alt="Experience icon"
+							class="icon"
+						/>
 						<div>
 							<h3>Unity</h3>
-							<p>Basic</p>
 						</div>
 					</article>
 				</div>
