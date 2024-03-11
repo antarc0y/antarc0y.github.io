@@ -1,31 +1,35 @@
 <script>
 	// @ts-nocheck
 
-	function scrollToSection(sectionId) {
-		if (typeof sectionId === 'string') {
-			const section = document.getElementById(sectionId);
-			if (section) {
-				section.scrollIntoView({ behavior: 'smooth' });
-			}
-		}
-	}
-
-	const isOpen = (id) => {};
-
-	function toggleMenu() {
+	function toggleMenu(event) {
 		const menu = document.querySelector('.menu-links');
 		const icon = document.querySelector('.hamburger-icon');
 		menu.classList.toggle('open');
 		icon.classList.toggle('open');
+
+		// Remove active class from all links
+		document.querySelectorAll('.nav-links a, .menu-links a').forEach((link) => {
+			link.classList.remove('active');
+		});
+
+		event.target.classList.add('active');
+	}
+
+	function handleNavClick(event) {
+		document.querySelectorAll('.nav-links a, .menu-links a').forEach((link) => {
+			link.classList.remove('active');
+		});
+
+		event.target.classList.add('active');
 	}
 </script>
 
 <nav id="desktop-nav">
 	<div class="logo">yh.</div>
 	<ul class="nav-links">
-		<a href="/">home</a>
-		<a href="/about">about</a>
-		<a href="/projects">projects</a>
+		<a href="/" class="active" on:click={handleNavClick}>home</a>
+		<a href="/about" on:click={handleNavClick}>about</a>
+		<a href="/projects" on:click={handleNavClick}>projects</a>
 	</ul>
 </nav>
 
@@ -39,7 +43,7 @@
 			<span />
 		</div>
 		<ul class="menu-links">
-			<a href="/" on:click={toggleMenu}>home</a>
+			<a href="/" class="active" on:click={toggleMenu}>home</a>
 			<a href="/about" on:click={toggleMenu}>about</a>
 			<a href="/projects" on:click={toggleMenu}>projects</a>
 		</ul>
@@ -107,7 +111,12 @@
 		color: #a2c5ac;
 	}
 
-	.nav-links a:hover::after {
-		right: 0;
+	.nav-links a.active {
+		background-position: left bottom;
+		color: #a2c5ac;
+	}
+
+	.menu-links a.active {
+		color: #a2c5ac;
 	}
 </style>
