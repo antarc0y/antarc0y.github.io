@@ -79,68 +79,11 @@
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
 	}
-	.project-info {
-		position: relative;
-		z-index: 1; /* Ensures text content is on top of the overlay */
-	}
-
-	.project-card:hover .project-image {
-		opacity: 0.5; /* Dim the image */
-	}
-
-	.image-container {
-		width: 250px;
-		height: 150px;
-		flex: none;
-		padding-right: 1rem;
-	}
-
-	.project-image {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		border-radius: 0;
-	}
-
-	.project-info {
-		flex-grow: 1;
-		padding: 0 20px;
-		max-width: 50%;
-	}
 
 	.project-title {
 		font-size: 1.5rem;
 		color: #333;
 		margin: 0 0;
 		text-decoration-color: #a2c5ac;
-	}
-
-	.project-description {
-		font-size: 1rem;
-		color: #d3d5d4;
-		margin: 0;
-		word-wrap: break-word;
-	}
-
-	.project-description :hover {
-		color: 'pink';
-	}
-
-	@media (max-width: 768px) {
-		.project-card {
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.image-container {
-			width: 80%;
-			height: auto;
-			margin: 0 auto;
-		}
-
-		.project-info {
-			max-width: 100%;
-			padding: 10px 0;
-		}
 	}
 </style>
