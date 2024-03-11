@@ -53,9 +53,7 @@ a {
 
 a:hover {
 	color: grey;
-	text-decoration: underline;
-	text-underline-offset: 1rem;
-	text-decoration-color: rgb(181, 181, 181);
+
 }
 
 .logo {
@@ -129,6 +127,7 @@ a:hover {
 
 .menu-links.open {
 	max-height: 300px;
+	margin-top: 15px;
 }
 
 .hamburger-icon.open span:first-child {
