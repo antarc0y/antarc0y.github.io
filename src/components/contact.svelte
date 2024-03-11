@@ -18,4 +18,19 @@
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
 	}
+
+	@media screen and (max-width: 600px) {
+		.contact-info-container {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			justify-content: start;
+		}
+
+		.contact-info-upper-container {
+			flex-direction: column;
+			justify-content: start;
+			margin-bottom: 5rem;
+		}
+	}
 </style>
