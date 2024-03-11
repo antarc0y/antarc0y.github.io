@@ -1,10 +1,10 @@
 <script>
-	import Profile from '../../components/profile.svelte';
+	import Projects from '../../components/projects.svelte';
 </script>
 
 <div class="container">
-	<div class="section" id="about">
-		<Profile />
+	<div class="section" id="projects">
+		<Projects />
 	</div>
 </div>
 
