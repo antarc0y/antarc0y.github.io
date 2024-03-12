@@ -44,7 +44,7 @@
 	</div>
 	<div class="section__text">
 		<p class="section__text__p1">hello. I'm</p>
-		<h2 class="title">yui han</h2>
+		<h2 class="title">🐱 yui han</h2>
 		<div class="label-container">
 			<p class="section__text__p2">{label}</p>
 		</div>

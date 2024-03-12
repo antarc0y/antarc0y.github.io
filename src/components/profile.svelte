@@ -1,6 +1,6 @@
 <section id="about">
 	<p class="section__text__p1">get to know more</p>
-	<h1 class="title">about me</h1>
+	<h1 class="title">📝 about me</h1>
 	<div class="section-container">
 		<div class="section__pic-container">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
