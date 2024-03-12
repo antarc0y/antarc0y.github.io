@@ -11,7 +11,7 @@
 	</nav>
 	<!-- svelte-ignore a11y-img-redundant-alt -->
 
-	<p>created by yui han 2024</p>
+	<p>©️ created by yui han 2024</p>
 </footer>
 
 <style>
@@ -21,6 +21,11 @@
 	.logo {
 		font-size: 2rem;
 		font-weight: bold;
+		color: #a2c5ac;
+	}
+
+	p {
+		font-size: smaller;
 		color: #a2c5ac;
 	}
 </style>
