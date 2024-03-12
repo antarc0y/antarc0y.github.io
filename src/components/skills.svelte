@@ -8,7 +8,7 @@
 	<div class="experience-details-container">
 		<div class="about-containers">
 			<div class="details-container">
-				<h2 class="experience-sub-title">languages</h2>
+				<h2 class="experience-sub-title">📜 languages</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -95,7 +95,7 @@
 			</div>
 
 			<div class="details-container">
-				<h3 class="experience-sub-title">frontend development</h3>
+				<h3 class="experience-sub-title">🌐 front-end</h3>
 				<div class="article-container">
 					<article>
 						<img
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 			<div class="details-container">
-				<h2 class="experience-sub-title">backend development</h2>
+				<h2 class="experience-sub-title">⚙️ back-end</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -206,7 +206,7 @@
 				</div>
 			</div>
 			<div class="details-container">
-				<h2 class="experience-sub-title">mobile</h2>
+				<h2 class="experience-sub-title">📱 mobile</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -242,7 +242,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">tools</h2>
+				<h2 class="experience-sub-title">🔨 tools</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -288,7 +288,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">database management</h2>
+				<h2 class="experience-sub-title">💾 database</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -344,7 +344,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">Cloud</h2>
+				<h2 class="experience-sub-title">☁️ cloud</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -366,7 +366,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">testing</h2>
+				<h2 class="experience-sub-title">🧪 testing</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -392,7 +392,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">UI/UX</h2>
+				<h2 class="experience-sub-title">🖌️ ui/ux</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -427,7 +427,7 @@
 				</div>
 			</div>
 			<div class="details-container">
-				<h2 class="experience-sub-title">game</h2>
+				<h2 class="experience-sub-title">🎮 game</h2>
 				<div class="article-container">
 					<article>
 						<img
@@ -443,7 +443,7 @@
 			</div>
 
 			<div class="details-container">
-				<h2 class="experience-sub-title">DevOps</h2>
+				<h2 class="experience-sub-title">🤿 DevOps</h2>
 				<div class="article-container">
 					<article>
 						<img
