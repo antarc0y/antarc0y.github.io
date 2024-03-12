@@ -80,6 +80,10 @@
 @media screen and (max-width: 600px) {
 
     #contact,
+    #experience {
+        margin-top: 4rem;
+    }
+
     footer {
         height: 40vh;
     }
