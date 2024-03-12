@@ -14,7 +14,7 @@
 		<div class="about-containers">
 			<div class="details-container color-container">
 				<div class="article-container">
-					<img src="src/icons/toneteller.png" alt="ToneTeller" class="project-img" />
+					<img src="/src/icons/toneteller.png" alt="ToneTeller" class="project-img" />
 				</div>
 				<h2 class="experience-sub-title project-title">Tone Teller</h2>
 				<p class="section__text__p3">
@@ -37,7 +37,7 @@
 			</div>
 			<div class="details-container color-container">
 				<div class="article-container">
-					<img src="src/icons/aquatic.png" alt="AR-Biosphere" class="project-img" />
+					<img src="/src/icons/aquatic.png" alt="AR-Biosphere" class="project-img" />
 				</div>
 				<h2 class="experience-sub-title project-title">AR-Biosphere</h2>
 				<p class="section__text__p3">

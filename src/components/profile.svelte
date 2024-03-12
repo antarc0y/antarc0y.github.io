@@ -4,19 +4,19 @@
 	<div class="section-container">
 		<div class="section__pic-container">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="src/icons/about-pic.JPG" alt="Profile picture" class="about-pic" />
+			<img src="/src/icons/about-pic.JPG" alt="Profile picture" class="about-pic" />
 		</div>
 		<div class="about-details-container">
 			<div class="about-containers">
 				<div class="details-container">
-					<img src="src/icons/experience.png" alt="Experience icon" class="icon" />
+					<img src="/src/icons/experience.png" alt="Experience icon" class="icon" />
 					<h3>location</h3>
 					<p>
 						based in <br /> <strong>Edmonton AB, Canada</strong>
 					</p>
 				</div>
 				<div class="details-container">
-					<img src="src/icons/education.png" alt="Education icon" class="icon" />
+					<img src="/src/icons/education.png" alt="Education icon" class="icon" />
 					<h3>university of alberta</h3>
 					<p>B.Sc. Computing Science<br />B.Sc. Ecology and Environmental Biology</p>
 				</div>
