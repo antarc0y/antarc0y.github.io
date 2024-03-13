@@ -1,35 +1,25 @@
 <script>
-	// @ts-nocheck
+	import { page } from '$app/stores';
 
-	function toggleMenu(event) {
+	console.log($page);
+
+	$: routeId = $page.url.pathname;
+	function toggleMenu() {
 		const menu = document.querySelector('.menu-links');
 		const icon = document.querySelector('.hamburger-icon');
+		// @ts-ignore
 		menu.classList.toggle('open');
+		// @ts-ignore
 		icon.classList.toggle('open');
-
-		// Remove active class from all links
-		document.querySelectorAll('.nav-links a, .menu-links a').forEach((link) => {
-			link.classList.remove('active');
-		});
-
-		event.target.classList.add('active');
-	}
-
-	function handleNavClick(event) {
-		document.querySelectorAll('.nav-links a, .menu-links a').forEach((link) => {
-			link.classList.remove('active');
-		});
-
-		event.target.classList.add('active');
 	}
 </script>
 
 <nav id="desktop-nav">
 	<div class="logo">yh.</div>
 	<ul class="nav-links">
-		<a href="/" class="active" on:click={handleNavClick}>home</a>
-		<a href="/about" on:click={handleNavClick}>about</a>
-		<a href="/projects" on:click={handleNavClick}>projects</a>
+		<a href="/" class:active={routeId === '/'}>home</a>
+		<a href="/about" class:active={routeId === '/about'}>about</a>
+		<a href="/projects" class:active={routeId === '/projects'}>projects</a>
 	</ul>
 </nav>
 
@@ -43,9 +33,9 @@
 			<span />
 		</div>
 		<ul class="menu-links">
-			<a href="/" class="active" on:click={toggleMenu}>home</a>
-			<a href="/about" on:click={toggleMenu}>about</a>
-			<a href="/projects" on:click={toggleMenu}>projects</a>
+			<a href="/" class:active={routeId === '/'} on:click={toggleMenu}>home</a>
+			<a href="/about" class:active={routeId === '/about'} on:click={toggleMenu}>about</a>
+			<a href="/projects" class:active={routeId === '/projects'} on:click={toggleMenu}>projects</a>
 		</ul>
 	</div>
 </nav>
@@ -78,44 +68,24 @@
 		color: #a2c5ac;
 	}
 
-	.nav-links a {
+	.nav-links a,
+	.menu-links a {
 		color: #333;
 		text-decoration: none;
 		padding: 0.5rem 1rem;
 		font-weight: bold;
 		position: relative;
 		overflow: hidden;
-		background: linear-gradient(to right, #a2c5ac 50%, #333 50%);
-		background-size: 200% 100%;
-		background-position: right bottom;
-		transition: background-position 0.5s ease-out, color 0.5s ease-out;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		background: none;
+		transition: color 0.5s ease-out;
 	}
 
-	.menu-links a {
-		display: block;
-		padding: 10px;
-		text-align: center;
-		font-size: 20px;
-		color: white;
-		transition: all 0.3 ease-in-out;
-	}
-
+	.nav-links a:hover,
 	.menu-links a:hover {
 		color: #a2c5ac;
 	}
 
-	.nav-links a:hover {
-		background-position: left bottom;
-		color: #a2c5ac;
-	}
-
-	.nav-links a.active {
-		background-position: left bottom;
-		color: #a2c5ac;
-	}
-
+	.nav-links a.active,
 	.menu-links a.active {
 		color: #a2c5ac;
 	}
