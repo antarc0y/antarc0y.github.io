@@ -493,4 +493,10 @@
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
 	}
+	@media screen and (max-width: 600px) {
+		.about-containers {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 </style>

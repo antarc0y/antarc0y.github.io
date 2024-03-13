@@ -42,11 +42,30 @@
 		.details-container {
 			max-width: 100%;
 			margin-top: 2rem;
+			justify-content: center;
+		}
+	}
+
+	@media screen and (min-width: 1201px) and (max-width: 1399px) {
+		.about-containers {
+			align-items: center;
+			justify-content: center;
+		}
+
+		.details-container {
+			max-width: 100%;
+			margin-bottom: 1rem;
+			align-items: center;
+			justify-content: center;
 		}
 	}
 	@media screen and (max-width: 1200px) {
 		.about-containers {
 			margin-top: 0;
+			justify-content: center;
+		}
+		.about-details-container {
+			justify-content: center;
 		}
 	}
 </style>

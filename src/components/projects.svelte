@@ -86,4 +86,21 @@
 		margin: 0 0;
 		text-decoration-color: #a2c5ac;
 	}
+
+	.experience-details-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-containers {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	@media screen and (max-width: 600px) {
+		.about-containers {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 </style>

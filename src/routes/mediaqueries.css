@@ -19,6 +19,11 @@
         height: auto;
     }
 
+    .about-containers {
+        align-items: center;
+        justify-content: center;
+    }
+
     .experience-details-container {
         flex-direction: column;
         flex-wrap: wrap;
@@ -30,6 +35,7 @@
     .details-container {
         max-width: 100%;
         margin-bottom: 1rem;
+        align-items: center;
     }
 
 }
