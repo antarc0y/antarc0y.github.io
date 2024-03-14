@@ -16,7 +16,16 @@ const config = {
 				assets: 'build',
 				fallback: null
 			}
-		), appDir: 'app'
+		), appDir: 'app',
+
+		prerender: {
+			handleHttpError({ status, path, referrer, referenceType }) {
+				if (status === 404) {
+					console.warn(`Suppressing 404 error for ${path}`);
+					return true; // Suppress the error
+				}
+			}
+		}
 
 	}
 };
