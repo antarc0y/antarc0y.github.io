@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@neoconfetti/svelte": "^2.2.1",
 		"vite-plugin-svelte-console-remover": "^1.0.10"
 	}
 }
