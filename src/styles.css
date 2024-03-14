@@ -36,7 +36,7 @@ nav,
 nav {
 	justify-content: space-around;
 	align-items: center;
-	height: 17vh;
+	height: 13vh;
 }
 
 .nav-links {
@@ -243,6 +243,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
+	color: rgb(53, 53, 53);
 	border: rgb(53, 53, 53) 0.1rem solid;
 }
 

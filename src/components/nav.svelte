@@ -52,7 +52,7 @@
 		width: 100%;
 		position: fixed;
 		display: flex;
-		padding: 1rem 3rem;
+		padding: 0.5rem 3rem;
 		justify-content: space-between;
 		align-items: center;
 		backdrop-filter: blur(10px);
@@ -86,5 +86,11 @@
 	.nav-links a.active,
 	.menu-links a.active {
 		color: #a2c5ac;
+	}
+
+	@media (max-width: 600px) {
+		nav {
+			padding: 0.5rem 1.5rem;
+		}
 	}
 </style>
