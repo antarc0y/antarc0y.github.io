@@ -10,7 +10,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"deploy": "npm run build && gh-pages -d build"
+		"deploy": "vite build && touch ./build/.nojekyll && node ./gh-pages.js"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",

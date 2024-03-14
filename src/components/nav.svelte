@@ -1,8 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 
-	console.log($page);
-
 	$: routeId = $page.url.pathname;
 	function toggleMenu() {
 		const menu = document.querySelector('.menu-links');
