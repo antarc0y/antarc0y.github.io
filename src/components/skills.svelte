@@ -357,7 +357,7 @@
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/heroku.svg" alt="heroku icon" class="icon" />
+						<img src="icons/heroku.svg" alt="heroku icon" class="icon" />
 						<div>
 							<h3>Heroku</h3>
 						</div>
@@ -456,7 +456,7 @@
 						</div>
 					</article>
 					<article>
-						<img src="src/icons/github.png" alt="Experience icon" class="icon" />
+						<img src="icons/github.png" alt="Experience icon" class="icon" />
 						<div>
 							<h3>Github</h3>
 						</div>
