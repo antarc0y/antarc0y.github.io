@@ -6,7 +6,7 @@
 		margin: 0 auto;
 	}
 	div.img {
-		background-image: url('../icon/me.svelte');
+		background-image: url('../components/me.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;

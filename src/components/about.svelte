@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import Me from '../icons/me.png';
+	import Me from '../components/me.png';
 
 	/**
 	 * @param {string | URL | undefined} url
@@ -63,14 +63,14 @@
 		<div id="socials-container">
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<img
-				src="src/icons/github.png"
+				src="icons/github.png"
 				alt="My Github profile"
 				class="icon"
 				on:click={() => openLink('https://github.com/antarc0y')}
 			/>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<img
-				src="src/icons/linkedin.png"
+				src="icons/linkedin.png"
 				alt="My LinkedIn profile"
 				class="icon"
 				on:click={() => openLink('https://www.linkedin.com/in/yuihan/')}
