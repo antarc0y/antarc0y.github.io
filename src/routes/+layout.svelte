@@ -1,8 +1,8 @@
 <script>
 	import Nav from '../components/nav.svelte';
 	import Background from '../components/background.svelte';
-	import './styles.css';
-	import './mediaqueries.css';
+	import '../styles.css';
+	import '../mediaqueries.css';
 </script>
 
 <Nav />

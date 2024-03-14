@@ -6,8 +6,8 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="./styles.css" />
-	<link rel="stylesheet" href="./mediaqueries.css" />
+	<link rel="stylesheet" href="../styles.css" />
+	<link rel="stylesheet" href="../mediaqueries.css" />
 </svelte:head>
 
 <div class="container">
