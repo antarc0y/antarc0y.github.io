@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="src/routes/styles.css" />
+	<link rel="stylesheet" href="/src/routes/styles.css" />
 	<link rel="stylesheet" href="src/routes/mediaqueries.css" />
 </svelte:head>
 

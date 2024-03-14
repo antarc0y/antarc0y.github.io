@@ -18,8 +18,8 @@
 	<div class="logo">yh.</div>
 	<ul class="nav-links">
 		<a href="/" class:active={routeId === '/'}>home</a>
-		<a href="/about" class:active={routeId === '/about'}>about</a>
-		<a href="/projects" class:active={routeId === '/projects'}>projects</a>
+		<a href="/about" class:active={routeId === '/about/'}>about</a>
+		<a href="/projects" class:active={routeId === '/projects/'}>projects</a>
 	</ul>
 </nav>
 
@@ -34,8 +34,8 @@
 		</div>
 		<ul class="menu-links">
 			<a href="/" class:active={routeId === '/'} on:click={toggleMenu}>home</a>
-			<a href="/about" class:active={routeId === '/about'} on:click={toggleMenu}>about</a>
-			<a href="/projects" class:active={routeId === '/projects'} on:click={toggleMenu}>projects</a>
+			<a href="/about" class:active={routeId === '/about/'} on:click={toggleMenu}>about</a>
+			<a href="/projects" class:active={routeId === '/projects/'} on:click={toggleMenu}>projects</a>
 		</ul>
 	</div>
 </nav>
