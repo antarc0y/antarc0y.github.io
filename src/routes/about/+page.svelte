@@ -8,8 +8,6 @@
 <div class="container">
 	<div class="section" id="about">
 		<Profile />
-	</div>
-	<div class="section">
 		<Contact />
 		<Footer />
 	</div>
@@ -25,6 +23,5 @@
 
 	.section {
 		width: 100%;
-		margin-bottom: 7rem;
 	}
 </style>
