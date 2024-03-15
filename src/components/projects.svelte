@@ -94,12 +94,29 @@
 	.about-containers {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: stretch;
+		gap: 1rem;
+	}
+
+	.details-container.color-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.project-img {
+		max-height: 100%;
+		height: auto;
+	}
+
+	.btn-container {
+		margin-top: auto;
 	}
 
 	@media screen and (max-width: 600px) {
 		.about-containers {
 			flex-direction: column;
-			align-items: center;
+			align-items: stretch;
 		}
 	}
 </style>
