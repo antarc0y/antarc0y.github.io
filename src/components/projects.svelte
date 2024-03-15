@@ -52,8 +52,7 @@
 				<div class="btn-container">
 					<button
 						class="btn btn-color-2 project-btn"
-						on:click={() => openLink('https://github.com/UAlberta-CMPUT401/ar-biosphere')}
-						>Github</button
+						on:click={() => openLink('https://github.com/open-uofa/ar-biosphere')}>Github</button
 					>
 					<button
 						class="btn btn-color-2 project-btn"

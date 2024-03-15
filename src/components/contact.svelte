@@ -1,13 +1,26 @@
+<script>
+	/**
+	 * @param {string | URL | undefined} url
+	 */
+	function openLink(url) {
+		window.open(url, '_blank');
+	}
+</script>
+
 <section id="contact">
 	<p class="section__text__p1">get in touch</p>
 	<h1 class="title">📞 contact me</h1>
 	<div class="contact-info-upper-container">
 		<div class="contact-info-container">
-			<img src="../../icons/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+			<a href="mailto:yuihan980@gmail.com">
+				<img src="../../icons/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+			</a>
 			<p><a href="mailto:yuihan980@gmail.com">email</a></p>
 		</div>
 		<div class="contact-info-container">
-			<img src="../../icons/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+			<a href="https://www.linkedin.com/in/yuihan/">
+				<img src="../../icons/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+			</a>
 			<p><a href="https://www.linkedin.com/in/yuihan/">LinkedIn</a></p>
 		</div>
 	</div>
@@ -17,6 +30,9 @@
 	.title {
 		text-decoration: underline;
 		text-decoration-color: #a2c5ac;
+	}
+	.contact-icon {
+		cursor: pointer;
 	}
 
 	@media screen and (max-width: 600px) {
