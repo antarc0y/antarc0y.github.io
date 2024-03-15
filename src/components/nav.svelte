@@ -13,9 +13,7 @@
 </script>
 
 <nav id="desktop-nav">
-	<a href="/" class="logo-link">
-		<div class="logo">yh.</div>
-	</a>
+	<a href="/" class="logo">yh. </a>
 	<ul class="nav-links">
 		<a href="/" class:active={routeId === '/'}>home</a>
 		<a href="/about" class:active={routeId === '/about/'}>about</a>
@@ -94,6 +92,9 @@
 	@media (max-width: 600px) {
 		nav {
 			padding: 0.5rem 1.5rem;
+		}
+		.hamburger-menu {
+			z-index: 9;
 		}
 	}
 </style>

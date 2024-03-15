@@ -119,7 +119,7 @@
     }
 
     #profile {
-        height: 55vh;
+        min-height: 55vh;
         margin-bottom: 0;
     }
 
@@ -183,5 +183,17 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    @media (max-height: 500px) {
+
+
+        section {
+            min-height: auto;
+            padding: 1rem 0;
+
+        }
+
+
     }
 }
