@@ -278,6 +278,7 @@ section {
 
 #about {
 	position: relative;
+	max-width: fit-content;
 }
 
 .about-containers {
@@ -353,6 +354,9 @@ section {
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1500px;
+
 }
 
 .article-container {
@@ -375,6 +379,13 @@ article {
 
 article .icon {
 	cursor: default;
+}
+
+.about-containers {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 2rem;
 }
 
 /* PROJECTS SECTION */
