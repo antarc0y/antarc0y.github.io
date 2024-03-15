@@ -13,7 +13,9 @@
 </script>
 
 <nav id="desktop-nav">
-	<div class="logo">yh.</div>
+	<a href="/" class="logo-link">
+		<div class="logo">yh.</div>
+	</a>
 	<ul class="nav-links">
 		<a href="/" class:active={routeId === '/'}>home</a>
 		<a href="/about" class:active={routeId === '/about/'}>about</a>
@@ -64,6 +66,7 @@
 		font-size: 2rem;
 		font-weight: bold;
 		color: #a2c5ac;
+		cursor: pointer;
 	}
 
 	.nav-links a,
